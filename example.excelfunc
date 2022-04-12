@@ -1,0 +1,3 @@
+# C1
+$$COUNT=COUNTIF(A2:A,"YES")
+=COUNT*3

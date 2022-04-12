@@ -1,9 +1,16 @@
 #!/usr/bin/env python3
 #coding: utf-8
 
+from .util import *
+
+
 class Loader:
     def __init__(self, prog: str) -> None:
         self.prog = prog
+        self.progs = {
+            "position": "",
+
+        }
 
     def load(self):
         progl = self.prog.splitlines()
